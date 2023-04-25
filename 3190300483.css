@@ -1,0 +1,211 @@
+ /*---------------------------header组--------------------*/
+ header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background: #fffb00;
+}
+
+ .grid-containerA {
+    display: grid;
+    grid-template-columns:30% 40% 30%;
+}
+
+.grid-itemA{
+    padding: 20px;
+    font-family: 'Archimoto V01';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    margin: 0 20px;
+    text-decoration: none; 
+    color: inherit;
+}
+
+/*----------------------第一主要栏: MAINCONTAINER A-------------------------*/
+
+.main-containerA{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 280px;
+    padding-bottom: 250px;
+}
+
+#rightcontainer{
+    background-color: #000000;
+}
+
+#leftcontainer{
+    padding-right: 20px;
+}
+
+/*英文名字*/
+#title{
+    text-align: right;
+    font-weight:400;
+    font-family:'Archimoto V01';
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin:0;
+}
+/*中文名字*/
+h3{
+    text-align: right;
+    font-family: 'MEBHeiHeiTi';
+    font-size: 60px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin:0;
+    padding-top: 10px;
+    padding-right: 7px;
+}
+/*副标题*/
+#subheading{
+    text-align: right;
+    font-weight:500;
+    font-family:'Archimoto V01';
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    margin:0;
+}
+
+#img1{
+    margin: 0%;
+    text-align: right;
+}
+
+
+
+/*---------------第二主要拦：MAINCOINER2------------*/
+.main-containerB{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.grid-containerB{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+.grid-itemB{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Archimoto V01';
+}
+
+#container6{
+    text-align: left;
+}
+
+#content{
+    margin: 0px;
+}
+
+.grid-containerC{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+.grid-itemC{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Archimoto V01';
+}
+
+#container9{
+    text-align: left;
+}
+
+.grid-containerD{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+.grid-itemD{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Archimoto V01';
+}
+
+#container12{
+    text-align: left;
+}
+
+.grid-containerE{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+.grid-itemE{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Archimoto V01';
+}
+
+#container15{
+    text-align: left;
+}
+
+body{
+    margin: 0%;
+}
+
+/*-------------第三主要栏 maincontainerC-----------------*/
+.main-containerC{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.grid-containerF{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+
+.grid-itemF{
+    padding: 20px;
+    text-align: left;
+    font-family: 'Archimoto V01';
+    font-size: 40px;
+}
+
+#container17{
+    text-align: center;
+}
+
+input{
+    font-family: 'Archimoto V01';
+    width: 70%;
+    height: 20px;
+    padding:5px; 
+    border:1px solid #574b05; 
+    border-radius: 5px;
+    background-color:#fffb00;
+}
+
+#typebox4{
+    margin-top: 10px;
+    height: 100px;
+}
+
+.button{
+    background-color: #000000; 
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-family: 'Archimoto V01';
+    font-size: 16px;
+}
+
+
+/*-------------FOOTER编辑-----------------*/
+footer{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Archimoto V01';
+}
+
